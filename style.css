@@ -86,6 +86,12 @@ button {
     margin-top: 30px;
 }
 
+button:hover {
+    opacity: 0.7;
+    color: #bcbcbc;
+    transition: 0.5s color ease-in-out;
+}
+
 .logo {
     height: 200px;
 }
@@ -145,6 +151,11 @@ textarea {
     cursor: pointer;
 }
 
+.whatsapp:hover {
+    opacity: 0.7;
+    transition: 0.5s color ease-in-out;
+}
+
 .whatsapp img {
     height: 60px;
 }
@@ -185,8 +196,4 @@ textarea {
     .header a {
         font-size: 20px;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 8576784c98609850b18212756a8fc7615e29b3d2
